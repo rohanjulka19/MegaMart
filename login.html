@@ -21,7 +21,7 @@
                 <input type="text" id="email" class="EmailInput" required placeholder="Email address"><br>
                 <input type="password" id="password" class="PasswordInput" required placeholder="Password"><br>
                 <button type="submit" class="Btn">Log In</button><br>
-                <a href="ForgotPassword.html" class="ForgottenPassword" id="forgotten-password">forgotten password?
+                <a href="#" class="Link" id="forgotten-password">forgotten password?
                 </a><br>
                 <hr color="black"><button type="submit" class="Btn RegisterBtn" id="register-btn">Sign Up</button>
             </form>
@@ -40,6 +40,18 @@
                 <br>
                 <button type="submit" class="RegisterElement Btn RegisterBtn" id="user-btn">Register</button>
             </form>
+            <div class = "MobileverifyModal">
+                <h1> Verify Mobile Number </h1>
+                <p class = "ModalText">
+                    A text with a One Time Password (OTP) has been sent to your mobile number : <b>7073826853</b>
+                    <a href = "#" class = "Link">Change </a>
+                </p>
+                <a href = ""  class="RegisterElement Link" id = "resend-otp">Resend OTP</a><br><br>
+                <form >
+                    <input type = "text" class ="RegisterElement" id = "user-otp" required placeholder="Enter OTP">
+                    <button type="submit" class = "RegisterElement Btn RegisterBtn" id = "check-otp" > Verify</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>

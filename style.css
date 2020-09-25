@@ -70,8 +70,13 @@ html , body {
     font-size: 3vw;
     font-weight: lighter;
 }
-.ForgottenPassword {
+.Link {
     color: darkblue;
+    text-decoration: none;
+}
+.Link:hover {
+    text-decoration: underline;
+    color: mediumblue;
 }
 .Modalheading {
     margin-top: 5%;
@@ -95,6 +100,10 @@ html , body {
     width: 37vw;
     height: 70vh;
     border-radius: 10px;
+}
+.RegisterForm {
+
+    display: none;
 }
 .RegisterElement {
     padding: 2%;
@@ -120,9 +129,16 @@ html , body {
     margin: 1%;
     font-size: 1.7vw;
     border-radius: 50px;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .ExitModal:hover {
     opacity: 1;
+}
+
+.ModalText {
+    text-align: justify;
+    padding-left :8%;
+    padding-right:8% ;
+    font-size: 1.5vw;
 }

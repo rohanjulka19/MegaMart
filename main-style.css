@@ -1,0 +1,81 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    height: 10vh;
+    width: 100vw;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.Menu{
+    margin: 0;
+    padding: 0;
+    margin-right:10% ;
+    height: 100%;
+    width: 20%;
+    border-spacing: 5%;
+}
+
+td {
+    padding: 5%;
+    font-size: 1.5vw;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+.Menu td:hover {
+    border: 2px solid darkorange ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+ 
+img {
+    width: auto;
+    height: auto;
+    max-width: 10vw;
+    max-height: 5vh;
+}
+
+.AccountIcon {
+    max-width: 1vw;
+    min-height: 1vh;
+}
+
+.CartIcon {
+    vertical-align: sub;
+}
+
+.CartLink {
+    text-align: center;
+}
+
+.Footer {
+    background-color: deepskyblue;
+    color: white;
+    width: 100vw;
+}
+
+.ProductsDiv {
+    background-color: gainsboro;
+}
