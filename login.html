@@ -1,27 +1,47 @@
 <html>
-    <head>
-        <title>
-            MegaMart
-        </title>
-        <link rel = "stylesheet" href = "style.css" />
-    </head>
-    <body>
-        <div class="container">
-            <div class = "Title" >
-                <h1>MegaMart</h1>
-                <h6>The Online Health Store</h6>
-            </div>
-            <div class = "LoginBox">
-                <form method = "GET" action="#">
-                    <input type = "text"  id = "email" class ="EmailInput" required placeholder="Email address"><br>
-                    <input type = "password" id = "password" class = "PasswordInput" required placeholder="Password"><br>
-                    <button type="submit" class = "Btn">Log In</button><br>
-                    <a href = "ForgotPassword.html" class = "ForgottenPassword" id = "forgotten-password">forgotten password? </a><br>
-                    <hr color="black"><button type = "submit" class="Btn" id = "register-btn" >Sign Up</button>
-                </form>
-            </div>  
+
+<head>
+    <title>
+        MegaMart
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="Title">
+            <h1>MegaMart</h1>
+            <h6>The Online Health Store</h6>
         </div>
+        <div class="LoginBox">
+            <form method="GET" action="#">
+                <input type="text" id="email" class="EmailInput" required placeholder="Email address"><br>
+                <input type="password" id="password" class="PasswordInput" required placeholder="Password"><br>
+                <button type="submit" class="Btn">Log In</button><br>
+                <a href="ForgotPassword.html" class="ForgottenPassword" id="forgotten-password">forgotten password?
+                </a><br>
+                <hr color="black"><button type="submit" class="Btn RegisterBtn" id="register-btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <div class="RegisterModal">
+        <div class="RegisterDiv"><i class="far fa-times-circle ExitModal"></i>
+            <h1 class="ModalHeading">Mega Mart</h1>
+            <hr color="black"><br>
+            <form class="RegisterForm">
+                <input type="text" class="RegisterElement" id="user-name" placeholder="Name" required><br>
+                <input type="number" class="RegisterElement" id="user-mobile" maxlength="10" placeholder="Mobile Number"
+                    required> <br>
+                <input type="Email" class="RegisterElement" id="user-email" placeholder="Email" required> <br>
+                <input type="Password " class="RegisterElement" id="user-password" placeholder="New Password" required>
+                <br>
+                <button type="submit" class="RegisterElement Btn RegisterBtn" id="user-btn">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
 
-
-    </body>
 </html>
