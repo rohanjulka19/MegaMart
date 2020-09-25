@@ -3,8 +3,25 @@
         <title>
             MegaMart
         </title>
+        <link rel = "stylesheet" href = "style.css" />
     </head>
-    <div>
-        
-    </div>
+    <body>
+        <div class="container">
+            <div class = "Title" >
+                <h1>MegaMart</h1>
+                <h6>The Online Health Store</h6>
+            </div>
+            <div class = "LoginBox">
+                <form method = "GET" action="#">
+                    <input type = "text"  id = "email" class ="EmailInput" required placeholder="Email address"><br>
+                    <input type = "password" id = "password" class = "PasswordInput" required placeholder="Password"><br>
+                    <button type="submit" class = "Btn">Log In</button><br>
+                    <a href = "ForgotPassword.html" class = "ForgottenPassword" id = "forgotten-password">forgotten password? </a><br>
+                    <hr color="black"><button type = "submit" class="Btn" id = "register-btn" >Sign Up</button>
+                </form>
+            </div>  
+        </div>
+
+
+    </body>
 </html>
